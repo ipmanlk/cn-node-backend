@@ -1,0 +1,93 @@
+[
+    {
+        "lang": "en",
+        "feeds": [
+            {
+                "source": "Hiru News",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.hirunews.lk%2Frss%2Fenglish.xml&max=10"
+            },
+            {
+                "source": "Ada Derana",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.adaderana.lk%2Frss.php&max=10"
+            },
+            {
+                "source": "News First",
+                "feed": "https://www.newsfirst.lk/feed/"
+            },
+            {
+                "source": "Daily News",
+                "feed": "http://www.dailynews.lk/rss.xml"
+            },
+            {
+                "source": "News.lk",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=https%3A%2F%2Fnews.lk%2Fnews%3Fformat%3Dfeed&max=3"
+            },
+            {
+                "source": "Gossip Lanka",
+                "feed": "https://english.gossiplankanews.com/feeds/posts/default?alt=rss"
+            }
+        ]
+    },
+    {
+        "lang": "sn",
+        "feeds": [
+            {
+                "source": "Gossip Lanka",
+                "feed": "http://www.gossiplankanews.com/feeds/posts/default?alt=rss"
+            },
+            {
+                "source": "BBC Sinhala",
+                "feed": "https://bit.ly/2FUmoaA"
+            },
+            {
+                "source": "Hiru News",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.hirunews.lk%2Frss%2Fsinhala.xml&max=10"
+            },
+            {
+                "source": "Ada Derana",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fsinhala.adaderana.lk%2Frsshotnews.php&max=3"
+            },
+            {
+                "source": "Neth News",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.nethnews.lk%2Ffeed&max=3"
+            },
+            {
+                "source": "Lankadeepa",
+                "feed": "https://bit.ly/2CDdCe4"
+            },
+            {
+                "source": "Divaina",
+                "feed": "https://bit.ly/2FIIgqb"
+            },
+            {
+                "source": "News.lk",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=https%3A%2F%2Fsinhala.news.lk%2Fnews%3Fformat%3Dfeed&max=3"
+            }
+        ]
+    },
+    {
+        "lang": "tm",
+        "feeds": [
+            {
+                "source": "Hiru News",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.hirunews.lk%2Frss%2Ftamil.xml&max=10"
+            },
+            {
+                "source": "Ada Derana",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Ftamil.adaderana.lk%2Frss.php&max=10"
+            },
+            {
+                "source": "JVP News",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=https%3A%2F%2Fwww.jvpnews.com%2Frss.xml&max=10"
+            },
+            {
+                "source": "Tamilwin",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=https%3A%2F%2Fwww.tamilwin.com%2Frss.xml&max=10"
+            },
+            {
+                "source": "BBC",
+                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Ffeeds.bbci.co.uk%2Ftamil%2Fsri_lanka%2Frss.xml&max=10"
+            }
+        ]
+    }
+]
