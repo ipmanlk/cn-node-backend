@@ -33,7 +33,7 @@
         "feeds": [
             {
                 "source": "Gossip Lanka",
-                "feed": "http://www.gossiplankanews.com/feeds/posts/default?alt=rss"
+                "feed": "https://tinyurl.com/y27xuesw"
             },
             {
                 "source": "BBC Sinhala",
@@ -41,15 +41,15 @@
             },
             {
                 "source": "Hiru News",
-                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.hirunews.lk%2Frss%2Fsinhala.xml&max=10"
+                "feed": "https://tinyurl.com/y64xvdj8"
             },
             {
                 "source": "Ada Derana",
-                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fsinhala.adaderana.lk%2Frsshotnews.php&max=3"
+                "feed": "https://tinyurl.com/y3v7vtyb"
             },
             {
                 "source": "Neth News",
-                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=http%3A%2F%2Fwww.nethnews.lk%2Ffeed&max=3"
+                "feed": "https://tinyurl.com/yxo9x6qg"
             },
             {
                 "source": "Lankadeepa",
@@ -61,7 +61,15 @@
             },
             {
                 "source": "News.lk",
-                "feed": "http://ftr.fivefilters.org/makefulltextfeed.php?url=https%3A%2F%2Fsinhala.news.lk%2Fnews%3Fformat%3Dfeed&max=3"
+                "feed": "https://tinyurl.com/y35lznud"
+            },
+            {
+                "source": "Lakbima",
+                "feed": "https://tinyurl.com/y6j7d2oa"
+            },
+            {
+                "source": "Ada",
+                "feed": "https://tinyurl.com/y5h4lxyy"
             }
         ]
     },
