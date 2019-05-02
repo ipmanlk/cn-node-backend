@@ -83,23 +83,23 @@ function getSqlQuery(query) {
     let sqlQuery;
 
     if (post_id == '-1' && source == '-1') {
-        sqlQuery = `SELECT id,source,datetime,title,post FROM ${lang} ORDER BY datetime DESC LIMIT 15`;
+        sqlQuery = `SELECT id,source,datetime,title,post FROM ${lang} ORDER BY id DESC LIMIT 15`;
     }
 
     if (post_id !== '-1' && source == '-1') {
-        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE id < '${post_id}' ORDER BY datetime DESC LIMIT 5`;
+        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE id < '${post_id}' ORDER BY id DESC LIMIT 5`;
     }
 
     if (post_id == '-1' && source !== '-1') {
-        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE source = '${source}' ORDER BY datetime DESC LIMIT 15`;
+        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE source = '${source}' ORDER BY id DESC LIMIT 15`;
     }
 
     if (post_id !== '-1' && source !== '-1') {
-        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang}  WHERE id < '${post_id}' AND source='${source}' ORDER BY datetime DESC LIMIT 5`;
+        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang}  WHERE id < '${post_id}' AND source='${source}' ORDER BY id DESC LIMIT 5`;
     }
 
     if (post_id !== '-1' && source == '-1' && mode == 'check') {
-        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE id > '${post_id}' ORDER BY datetime DESC LIMIT 5`;
+        sqlQuery = `SELECT id,source,datetime,title, post FROM ${lang} WHERE id > '${post_id}' ORDER BY id DESC LIMIT 5`;
     }
 
     return sqlQuery;
