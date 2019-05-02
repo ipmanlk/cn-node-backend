@@ -19,7 +19,7 @@ const handle = (req, res) => {
             sourcesList.sendResponse(req, res);
             break;
         case "version":
-            res.send(JSON.stringify({ "version": "5.7.0" }));
+            res.send(JSON.stringify({ "version": "5.8.1" }));
             break;
         default:
             return ("-1:cnRequestHandler:handle");
