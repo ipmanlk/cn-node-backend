@@ -19,10 +19,30 @@ const save = (newsData) => {
 
 const clean = (news) => {
     const $ = cheerio.load(news.post);
-    // remove ada feed junk
-    $('.sr-date').parent().remove();
-    news.post = $.html();
+    try {
+        $('.sr-date').parent().remove();
+        $('a[href="https://blockads.fivefilters.org"]').parent().remove();
+        $('a[href="https://blockads.fivefilters.org/acceptable.html"]').parent().remove();
+        $('img[src="https://data.gossiplankanews.com/box0/arti.png"]').remove();
+        $(".adsbygoogle").remove();
+        $('*').removeAttr("style");
+        news.post = escapedHtmlFix($.html());
+        news.title = escapedHtmlFix(news.title);
+    } catch (error) {
+
+    }
+
     return news;
+};
+
+const escapedHtmlFix = (text) => {
+    return text
+        .replace("&amp;", "&")
+        .replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("&quot;", '"')
+        .replace("&#039;", "'")
+        .replace("&amp;#039;", "'");
 };
 
 module.exports = {
