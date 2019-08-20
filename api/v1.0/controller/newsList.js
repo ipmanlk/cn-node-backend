@@ -57,7 +57,7 @@ function getMainImg(post) {
     const regEx = /<img.+src\=(?:\"|\')(.+?)(?:\"|\')(?:.+?)\>/;
     try {
         let imgs = (regEx.exec(`${post}`));
-        return imgs[1];
+        return imgs[3] || imgs[2] || imgs[1];
     } catch (e) {
         return "null";
     }
